@@ -15,8 +15,8 @@ const NewsPage = () => {
 
         <p className="paragaphs"><strong>Protocol to reverse engineer Hamiltonian models advances automation of quantum devices.</strong></p>
         <p className="paragaphs">Scientists from the University of Bristol’s Quantum Engineering Technology Labs (QETLabs) have developed an algorithm that provides valuable insights into the physics underlying quantum systems — paving the way for significant advances in quantum computation and sensing, and potentially turning a new page in scientific investigation.</p>
-        <p className="paragaphs"></p>
-        <p className="paragaphs"></p>      
+        <p className="paragaphs">sds</p>
+        <p className="paragaphs">rfr</p>      
         <p className="paragaphs"></p>      
         <p className="paragaphs"></p>      
         <p className="paragaphs"></p>      
