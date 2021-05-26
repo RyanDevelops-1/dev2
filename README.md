@@ -28,3 +28,10 @@ npm install
 ```bash
 npm run dev
 ```
+
+### Push/commit repos to github
+
+```bash
+git commit -m "first commit"
+git push -u origin main
+```
