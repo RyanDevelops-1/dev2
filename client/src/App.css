@@ -17,7 +17,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   color: #333;
 }
 
@@ -574,4 +574,12 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+.paragaphs {
+  padding: 5px;
+}
+
+.newsheader {
+  font-size: xx-large;
 }
