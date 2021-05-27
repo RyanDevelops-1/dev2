@@ -32,6 +32,6 @@ npm run dev
 ### Push/commit repos to github
 
 ```bash
-git commit -m "first commit"
+git commit -m "first commit" || use the commit thing in vs code
 git push -u origin main
 ```
