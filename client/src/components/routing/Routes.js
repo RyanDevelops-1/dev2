@@ -12,8 +12,6 @@ import Profile from '../profile/Profile';
 import Posts from '../posts/Posts';
 import Post from '../post/Post';
 import News from '../layout/News/News';
-import NewsPage from '../layout/News/NewsPage';
-import NewsPage2 from '../layout/News/NewsPage2';
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
 
@@ -34,8 +32,6 @@ const Routes = props => {
         <PrivateRoute exact path="/posts" component={Posts} />
         <PrivateRoute exact path="/posts/:id" component={Post} />
         <PrivateRoute exact path="/news" component={News} />
-        <PrivateRoute exact path="/spectre-strikes-back-new-hacking-vulnerability-affecting-billions-of-computers-worldwide" component={NewsPage} />
-        <PrivateRoute exact path="/artificial-intelligence-algorithm-helps-unravel-the-physics-underlying-quantum-systems" component={NewsPage2} />
         <Route component={NotFound} />
       </Switch>
     </section>
