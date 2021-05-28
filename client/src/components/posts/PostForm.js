@@ -6,10 +6,11 @@ import { addPost } from '../../actions/post';
 const PostForm = ({ addPost }) => {
   const [text, setText] = useState('');
 
+
   return (
     <div className='post-form'>
       <div className='bg-primary p'>
-        <h3>Say Something...</h3>
+        <h3>Interact with the community...</h3>
       </div>
       <form
         className='form my-1'
