@@ -583,3 +583,9 @@ button {
 .newsheader {
   font-size: xx-large;
 }
+
+.repoLanguage {
+  font-size: large;
+  vertical-align: bottom;
+  padding-top: 2%;
+}

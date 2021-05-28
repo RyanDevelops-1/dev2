@@ -20,6 +20,7 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
               </a>
             </h4>
             <p>{repo.description}</p>
+            <p className="repoLanguage">Written in: {repo.language}</p>
           </div>
           <div>
             <ul>
