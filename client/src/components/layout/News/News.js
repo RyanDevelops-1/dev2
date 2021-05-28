@@ -1,29 +1,30 @@
-import React, { useState, useEffect } from 'react'
-import Axios from 'axios'
-import NewsItem from './NewsItem';
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import NewsItem from './newsimage.jpg'
 
 const News = () => {
-    const [articles, setArticles] = useState([]);
+  return (
+    <div class="profiles">
+        <h1 className="large text-primary">News</h1>
+        <div class="profile bg-light">
+          <img
+            src={NewsItem}
+            alt=""
+            width="300px"
+          />
+          <div>
+            <p>TECHNOLOGY MAY, 4 2021</p>
+            <h2>Pushing Computing to the Edge With Innovative Microchip Design to Make AI Accessible in Real-Time</h2>
+            <p>Computing experts thought they had developed adequate security patches after the major worldwide Spectre flaw of 2018, but UVA’s discovery shows processors are open to…</p>
+          </div>
 
-    useEffect(() => {
-        const getArticles = async () => {
-            const res = await Axios.get("https://newsapi.org/v2/everything?q=apple&from=2021-05-27&to=2021-05-27&sortBy=popularity&apiKey=ee9a044e3fe245878580d59f52a7f12a");
-
-            setArticles(res.data.articles)
-            console.log(res);
-        }
-
-    getArticles()
-    }, [])
-    
-    return (
-        <div>
-            <h1 className="large text-primary">NEWS</h1>
-            {articles.map(({title, description, url, urlToImage}) => (
-                <NewsItem title={title} description={description} url={url} urlToImage={urlToImage} />
-            ))}
+         <ul>
+           <Link to="spectre-strikes-back-new-hacking-vulnerability-affecting-billions-of-computers-worldwide">Test News Link</Link>
+         </ul>
         </div>
-    )
-}
 
-export default News
+      </div>
+  );
+};
+
+export default News;
